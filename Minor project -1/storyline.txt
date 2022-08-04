@@ -1,0 +1,26 @@
+We have given a books dataset. Dataset contains the following columns ['bookID', 'title', 'authors', 'average_rating', 'isbn', 'isbn13',
+   'language_code', '  num_pages', 'ratings_count', 'text_reviews_count',
+    'publication_date', 'publisher'] 
+Data type of columns is int,object or float type.Dataset not contains any nulll value
+but their are one bad lines which we have to skip .
+Shape of Dataset is (11123,12) means their total 11123 rows and 12 columns.
+their also some outliers like some books with 0 average rating because rating count is also
+0. also 1 row which have 5 rating but rating count is 0 . and some rows with 5 rating with -12 rating counts
+which is outliers .
+The size of dataset is 133476.
+To measure popularity of books we can't use only average rating or only rating count
+so we use multiple of average rating and rating count.
+using this we got Most Popular books as " Twilight (Twilight #1)" by " Stephenie Meyer" with  average rating of 3.59
+book publish by Little Brown and Company in 9 June 2006.
+Books which are more pages rated mostly higher.
+In 60s only 6 books were published and most popular books of 60s is
+"Paws Before Dying (A Dog Lover's Mystery #4)" written by "Susan Conant" and publish by "Berkley Books".
+The author "Stephen King " wrote most page. 18219 pages is written by Stephen King
+He writes  40 books .
+2949 books that are written in less or equal 200 pages. 
+Most popular books which are publish by Houghton Mifflin Harcourt is 
+"The Fellowship of the Ring (The Lord of the Rings #1)" written by J.R.R. Tolkien
+and publish in 2003.
+"Dark Intimacy: Hope for Those in Difficult Prayer-Experiences" is least popular book of 90s.
+"Colossians and Philemon: A Critical and Exegetical Commentary (International Critical Commentary)" 
+is highest rated books which have more than 500 pages written by "R. McL. Wilson" but consider the fact that rating count is only 1.
